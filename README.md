@@ -1,5 +1,13 @@
-# A01
-Title + 1-sentence purpose
-What data is used (California Housing dataset)
-How to run the script (you’ll fill this in more later)
-Expected output (a saved boxplot image)
+# A01 – California Housing Boxplot
+
+This project generates a boxplot of median house values from the California Housing dataset.
+
+## Data
+- California Housing dataset (scikit-learn)
+
+## Run
+```bash
+pip install -r requirements.txt
+python src/boxplot.py
+
+Saved boxplot image: figs/boxplot.png
